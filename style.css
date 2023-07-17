@@ -122,3 +122,23 @@
 
 
 }
+
+/* footer related styles */
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 100px;
+}
+.footer-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    padding-left: 40px;
+}
+.last-para {
+    text-align: center;
+}
