@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header related styles */
+.nav-container {
+    padding: 10px;
+   background-color: rgb(73, 73, 73);
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;   
+}
+.nav-img {
+    width: 170px;
+   
+}
+.l {
+    margin: 10px;
+    font-size: 18px;
+}
+.list {
+    list-style: none;
+    display: flex;
+   
+}
