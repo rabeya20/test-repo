@@ -27,6 +27,9 @@
 }
 /* main related styles */
 
+
+/* 1st section */
+
 .banner {
     display: flex;
     justify-content: space-around;
@@ -35,6 +38,7 @@
     border: 1px solid black;
     background-image: url('images/background.png'),linear-gradient(45deg,#2e2e2e,#000);
     color: white;
+    
     
 }
 .banner-text {
@@ -58,4 +62,63 @@
 .img {
     width: 300px;
     padding-right: 40px;
+}
+
+
+/* 2nd section */
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row-reverse;
+}
+.about-title {
+    font-size: 25px;
+}
+
+/* 3rd section */
+
+.third {
+    background-image: url('images/background.png'),linear-gradient(45deg,#2e2e2e,#000);
+    color: white;
+    padding-bottom: 50px;
+    
+}
+.srv-title {
+    padding: 30px 0;
+}
+.our-services {
+    display: flex;
+    justify-content: space-around;
+}
+.services {
+   
+    box-shadow: 8px 16px 32px 50px #2e2e2e;
+    width: 180px;
+    height: 310px;
+    text-align: center;
+    padding: 20px ;
+    margin: 20px 0;
+    border-radius: 15px;
+
+}
+.srv-img {
+    height: 90px;
+    padding-bottom: 10px;
+}
+.srv-description {
+    padding: 20px 0;
+}
+
+.srv {
+    background-color: gray;
+
+
 }
